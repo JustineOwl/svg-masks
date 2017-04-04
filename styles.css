@@ -3,6 +3,7 @@
 }
 
 .figure {
+    position: relative;
     width: 699px;
     height: 780px;
     background-image: url('./screen3_ipad_large.jpg');
@@ -16,6 +17,9 @@
 }
 
 .video-wrapper {
+    position: relative;
+    top: 38px;
+    left: 63px;
     clip-path: url('./screen3_ipad_video_large_clippath.svg#mask');
     mask-repeat: no-repeat;
     -webkit-mask-image: url('./screen3_ipad_video_large_mask.svg');
