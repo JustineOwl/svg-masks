@@ -1,0 +1,25 @@
+.body {
+    background-color: rebeccapurple;
+}
+
+.figure {
+    width: 699px;
+    height: 780px;
+    background-image: url('./screen3_ipad_large.jpg');
+    background-size: 100%;
+    clip-path: url('./screen3_ipad_large_clippath.svg#mask');
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url('./screen3_ipad_large_mask.svg');
+    mask-image: url('./screen3_ipad_large_mask.svg');
+    -webkit-mask-size: 699px 780px;
+    mask-size: 699px 780px;
+}
+
+.video-wrapper {
+    clip-path: url('./screen3_ipad_video_large_clippath.svg#mask');
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url('./screen3_ipad_video_large_mask.svg');
+    mask-image: url('./screen3_ipad_video_large_mask.svg');
+    -webkit-mask-size: 699px 780px;
+    mask-size: 699px 780px;
+}
